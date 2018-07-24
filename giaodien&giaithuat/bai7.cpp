@@ -21,8 +21,8 @@ QString Bai7::output(QString m_chuoi)
         {
             nguyenamt++;
         }
-        else if (m_chuoi[i] >='65' && m_chuoi[i] <='90')  phuamh++;
-        else if (m_chuoi[i] >='97' && m_chuoi[i] <='122') phuamt++;
+        else if (m_chuoi[i] >=65 && m_chuoi[i] <=90)  phuamh++;
+        else if (m_chuoi[i] >=97 && m_chuoi[i] <=122) phuamt++;
     }
     result.append(" nguyên âm hoa có: " );result.append(QString::number(nguyenamh));
     result.append(" số phụ âm hoa có: ");result.append(QString::number(phuamh));
